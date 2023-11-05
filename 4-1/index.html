@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src ="code.js"></script>
     <!--this is my css code-->
     <link rel="stylesheet" href="Style.css">
     <!--James McCormick's index page for CSC102 -->
@@ -27,11 +28,20 @@
             <a href="./game.html">Game</a><br>
             <a href="./strings.html">Strings</a><br>
         </nav>
+
+
     </header>
-    <p>Check out this picture.</p>
+    <p class="paratext">Check out this picture.</p>
     <br>Memes aren't my speciality, VCRs clocks are more my speed.</br>
-    <!--This is an inserted picture-->
+    <!--This is an inserted picture set as a marquee with a right movement-->
+    <marquee id="mymarquee" direction = "right">
     <img id="memeImage" src="Screenshot_20231006-170512.png">
+</marquee>
+    <br>
+    <br>
+    <!--for the event driven programming assignment 4.1-->
+    <button onclick="startfun();" id = "startbutton">Start</button><button onclick="stopfun();" id = "stopbutton">Stop</button>
+    <br>
     <br>
     <br>
     <footer>University of Advancing Technology<br>

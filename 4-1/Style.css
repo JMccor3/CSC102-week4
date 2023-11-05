@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-   height: 550px;
+   height: 200px;
    width: 200px;
    float: left;
    padding: 5px;
@@ -16,11 +16,16 @@ footer {
    margin-right: 200px;
 }
 
-memeImage {
+#memeImage {
    text-align: center;
    margin-right: 200px;
 }
 
 header {
    text-align: center;
+}
+.paratext{
+ color: rgb(8, 242, 110);
+ font-size: x-large;
+ font-family: cursive;
 }
